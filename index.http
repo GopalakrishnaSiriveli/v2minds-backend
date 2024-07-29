@@ -1,0 +1,16 @@
+POST http://localhost:3000/addNotes
+Content-Type: application/json
+
+{
+    "content": "Learn Backend Technologies"
+}
+
+###
+
+GET http://localhost:3000/notes
+
+###
+
+DELETE http://localhost:3000/notes/15
+
+###
